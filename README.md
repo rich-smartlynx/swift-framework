@@ -12,7 +12,7 @@ Usage: initialize the libary with the apiKey you were given  lynxapi = Lynx(apiK
     Then impliment the didFinishLaunchingWithOptions delegate method:
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    let apiKey = "gLHu6TwdYNpUZjX+SboqaV9uN9BEq0czYCtMwjgdH/N4glCs4/gP/n/AHIXb0V0m"
+    let apiKey = "<your apiKey>"
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let linkResults = Lynx(apiKey: apiKey).checkForLink()        
         return true
