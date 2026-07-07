@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "lynxapi",
-            url: "https://github.com/rich-smartlynx/lynxapi-framework/releases/download/1.1.0/lynxapi.xcframework.zip",
-            checksum: "3b4c9ca18ed484b3d3216a0d23792fe932de99b2e35be8a5b35c2733f08eea69"
+            url: "https://github.com/rich-smartlynx/lynxapi-framework/releases/download/1.1.1/lynxapi.xcframework.zip",
+            checksum: "bfaf433411be2de5ddb051d9e09d9c4c5d63164afa20d4dd4590ebe3b8ea5031"
         ),
     ]
 )
